@@ -1,0 +1,14 @@
+name: ess563
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - obspy
+    - matplotlib
+    - scipy
+    - numpy
+    - pandas
+    - h5py
