@@ -35,6 +35,7 @@ This course requires Python 3.9+ with scientific computing packages. We recommen
    ```bash
    conda env create -f env.yml
    conda activate ess563-2025
+   pip install -r requirements.txt
    python -m ipykernel install --user --name ess563-2025 --display-name "ess563-2025"
    ```
 
