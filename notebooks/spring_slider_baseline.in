@@ -1,0 +1,39 @@
+&MESHDIM/
+  NN = 1
+  FAULT_TYPE = 1
+/
+
+&FRICTION/
+  MU = 0.6
+  A = 0.008
+  B = 0.012
+  DC = 1.0e-3
+  V_SS = 1.0e-9
+  V_PL = 1.0e-9
+  STATE_EVOLUTION = 1
+/
+
+&NORMAL_STRESS/
+  SIGMA = 80.0e6
+  SIGMA_CPL = 0.0
+/
+
+&SOLVER/
+  TMAX = 1.0e5
+  NTOUT = 1000
+  NSTOP = 0
+  DTTRY = 1.0e-3
+  ACCURACY = 1.0e-7
+/
+
+&SPRING/
+  STIFFNESS = 2.0e8
+/
+
+&OUTPUT/
+  OX_SEQ = 1
+  OX_DYN = 1
+  NXOUT = 1
+  NTOUT_OT = 100
+  IC = 1
+/
